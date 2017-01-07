@@ -1,0 +1,292 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      8538,        282]
+NotebookOptionsPosition[      7123,        226]
+NotebookOutlinePosition[      7507,        243]
+CellTagsIndexPosition[      7464,        240]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Example-Food in the UK", "Title",
+ CellChangeTimes->{{3.692734753359707*^9, 3.692734787864409*^9}}],
+
+Cell["Post in the Wolfram Blog", "Subsubsection",
+ CellChangeTimes->{{3.69273479202516*^9, 3.692734810520462*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Data", "Chapter",
+ CellChangeTimes->{{3.692734832493424*^9, 3.692734836221546*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"oxfordData", "=", "\n", "\t", 
+  RowBox[{
+  "foodLinkToDataset", "[", 
+   "\"\<http://ratings.food.gov.uk/OpenDataFiles/FHRS269en-GB.xml\>\"", 
+   "]"}]}]], "Code",
+ CellChangeTimes->{{3.6927348403092012`*^9, 3.692734896401095*^9}, {
+  3.69273499668685*^9, 3.6927350007278023`*^9}, {3.692735132126937*^9, 
+  3.692735136235331*^9}, {3.692735283433682*^9, 3.692735311017695*^9}, {
+  3.6927476605116167`*^9, 3.69274767449332*^9}}],
+
+Cell[BoxData[
+ RowBox[{"foodLinkToDataset", 
+  "[", "\<\"http://ratings.food.gov.uk/OpenDataFiles/FHRS269en-GB.xml\"\>", 
+  "]"}]], "Output",
+ CellChangeTimes->{{3.692734898288413*^9, 3.692734898370298*^9}, {
+  3.692734998274706*^9, 3.69273500195074*^9}, {3.6927476624837933`*^9, 
+  3.692747675372628*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[""], "Code",
+ CellChangeTimes->{{3.692747685000517*^9, 3.692747692947917*^9}}],
+
+Cell[BoxData[
+ RowBox[{"foodLinkToDataset", 
+  "[", "\<\"http://ratings.food.gov.uk/OpenDataFiles/FHRS269en-GB.xml\"\>", 
+  "]"}]], "Output",
+ CellChangeTimes->{3.692747690391375*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{
+   RowBox[{"http", ":"}], "//", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"ratings", ".", "food", ".", "gov", ".", "uk"}], "/", 
+      "OpenDataFiles"}], "/", "FHRS269en"}], "-", 
+    RowBox[{"GB", ".", "xml"}]}]}], "]"}]], "Code",
+ CellChangeTimes->{{3.6927353306287403`*^9, 3.692735339936871*^9}},
+ EmphasizeSyntaxErrors->True],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Syntax","sntxf",
+   "\"\\\"\\!\\(\\*RowBox[{RowBox[{\\\"http\\\", \\\":\\\"}]}]\\)\\\" cannot \
+be followed by \\\"\\!\\(\\*RowBox[{\\\"//\\\", \
+RowBox[{RowBox[{RowBox[{RowBox[{\\\"ratings\\\", \\\".\\\", \\\"food\\\", \
+\\\".\\\", \\\"gov\\\", \\\".\\\", \\\"uk\\\"}], \\\"/\\\", \\\"OpenDataFiles\
+\\\"}], \\\"/\\\", \\\"FHRS269en\\\"}], \\\"-\\\", RowBox[{\\\"GB\\\", \
+\\\".\\\", \
+\\\"xml\\\"}]}]}]\\)\\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\"\\\"}]\\).\"",2,
+   597,188,30999513685740315746,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.6927353426171503`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GeoPosition", "[", 
+  RowBox[{"Entity", "[", 
+   RowBox[{"\"\<City\>\"", ",", " ", 
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<Datong\>\"", ",", " ", "\"\<Shanxi\>\"", ",", " ", 
+      "\"\<China\>\""}], "}"}]}], "]"}], "]"}]], "Code",
+ CellChangeTimes->{{3.692735875529312*^9, 3.692735902247037*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoPosition", "[", 
+  RowBox[{"{", 
+   RowBox[{"40.083333`", ",", "113.3`"}], "}"}], "]"}]], "Output",
+ CellChangeTimes->{{3.692735878050117*^9, 3.692735903830139*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GeoPosition", "[", 
+  RowBox[{"Entity", "[", 
+   RowBox[{"\"\<City\>\"", ",", 
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<Beijing\>\"", ",", "\"\<Beijing\>\"", ",", "\"\<China\>\""}], 
+     "}"}]}], "]"}], "]"}]], "Code",
+ CellChangeTimes->{{3.692736006262842*^9, 3.692736097534102*^9}, {
+  3.692736149676278*^9, 3.692736178934683*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoPosition", "[", 
+  RowBox[{"{", 
+   RowBox[{"39.93`", ",", "116.4`"}], "}"}], "]"}]], "Output",
+ CellChangeTimes->{{3.692736017358102*^9, 3.692736099218799*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GeoNearest", "[", 
+  RowBox[{
+   RowBox[{"Entity", "[", "\"\<City\>\"", "]"}], ",", 
+   RowBox[{"GeoPosition", "[", 
+    RowBox[{"{", 
+     RowBox[{"39.93", ",", "116.4"}], "}"}], "]"}]}], "]"}]], "Code",
+ CellChangeTimes->{{3.6927359513956327`*^9, 3.692735999299855*^9}, {
+  3.6927361121227016`*^9, 3.6927361289414377`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  TemplateBox[{"\"Beijing\"",RowBox[{"Entity", "[", 
+      RowBox[{"\"City\"", ",", 
+        RowBox[{"{", 
+          RowBox[{"\"Beijing\"", ",", "\"Beijing\"", ",", "\"China\""}], 
+          "}"}]}], "]"}],
+    "\"Entity[\\\"City\\\", {\\\"Beijing\\\", \\\"Beijing\\\", \
+\\\"China\\\"}]\"","\"city\""},
+   "Entity"], "}"}]], "Output",
+ CellChangeTimes->{{3.692736118390471*^9, 3.6927361302388077`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GeoPosition", "[", 
+  RowBox[{"Entity", "[", 
+   RowBox[{",", 
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<Beijing\>\"", ",", "\"\<Beijing\>\"", ",", "\"\<China\>\""}], 
+     "}"}]}], "]"}], "]"}]], "Code",
+ CellChangeTimes->{{3.6927362280238543`*^9, 3.69273627734585*^9}, {
+  3.692736318426998*^9, 3.692736331106039*^9}, {3.692747497325886*^9, 
+  3.6927474976306763`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "GeoNearest","invloc",
+   "\"\\!\\(\\*RowBox[{\\\"here\\\"}]\\) is not a valid location \
+specification.\"",2,613,211,30999513685740315746,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.692736246981439*^9, 3.692736267690053*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoNearest", "[", 
+  RowBox[{"\<\"Building\"\>", ",", "here"}], "]"}]], "Output",
+ CellChangeTimes->{{3.692736246985746*^9, 3.692736267707508*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[""], "Code",
+ CellChangeTimes->{{3.6927474717372513`*^9, 3.692747476673045*^9}, {
+  3.69274750824127*^9, 3.6927475286025057`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "GeoNearest","invloc",
+   "\"\\!\\(\\*RowBox[{\\\"\\\\\\\"Beijing\\\\\\\"\\\"}]\\) is not a valid \
+location specification.\"",2,616,218,30999513685740315746,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.692747478455771*^9, {3.692747514053831*^9, 3.6927475217465754`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "GeoNearest","invloc",
+   "\"\\!\\(\\*RowBox[{\\\"\\\\\\\"China\\\\\\\"\\\"}]\\) is not a valid \
+location specification.\"",2,616,219,30999513685740315746,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.692747478455771*^9, {3.692747514053831*^9, 3.692747521763563*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoNearest", "[", 
+  RowBox[{
+   RowBox[{"Entity", "[", "\<\"University\"\>", "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Beijing\"\>", ",", "\<\"China\"\>"}], "}"}]}], 
+  "]"}]], "Output",
+ CellChangeTimes->{
+  3.69274747887816*^9, {3.692747514110055*^9, 3.692747521776609*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{838, 1005},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 28, \
+2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 105, 1, 114, "Title"],
+Cell[688, 25, 114, 1, 43, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[827, 30, 89, 1, 66, "Chapter"],
+Cell[CellGroupData[{
+Cell[941, 35, 451, 9, 89, "Code"],
+Cell[1395, 46, 306, 6, 66, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1738, 57, 91, 1, 64, "Code"],
+Cell[1832, 60, 183, 4, 66, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2052, 69, 391, 11, 64, "Code"],
+Cell[2446, 82, 623, 12, 29, "Message"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3106, 99, 324, 8, 64, "Code"],
+Cell[3433, 109, 192, 4, 39, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3662, 118, 359, 9, 64, "Code"],
+Cell[4024, 129, 188, 4, 39, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4249, 138, 349, 8, 64, "Code"],
+Cell[4601, 148, 432, 10, 50, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5070, 163, 395, 10, 64, "Code"],
+Cell[5468, 175, 286, 6, 29, "Message"],
+Cell[5757, 183, 171, 3, 39, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5965, 191, 143, 2, 64, "Code"],
+Cell[6111, 195, 332, 7, 29, "Message"],
+Cell[6446, 204, 328, 7, 29, "Message"],
+Cell[6777, 213, 306, 8, 39, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
