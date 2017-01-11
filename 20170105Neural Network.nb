@@ -3,10 +3,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[         0,          0]
-NotebookDataLength[    597238,      12833]
-NotebookOptionsPosition[    588300,      12517]
-NotebookOutlinePosition[    588684,      12534]
-CellTagsIndexPosition[    588641,      12531]
+NotebookDataLength[    597547,      12846]
+NotebookOptionsPosition[    588594,      12530]
+NotebookOutlinePosition[    588978,      12547]
+CellTagsIndexPosition[    588935,      12544]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -64,8 +64,9 @@ Cell[BoxData[
           
           ImageSize->
            Dynamic[{
-            Automatic, 3.5 CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-             Magnification]}]], 
+            Automatic, 
+             3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+              Magnification])}]], 
          TemplateBox[{GraphicsBox[{{
               Opacity[0.3], {{
                 LineBox[
@@ -164,8 +165,9 @@ Cell[BoxData[
           
           ImageSize->
            Dynamic[{
-            Automatic, 3.5 CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-             Magnification]}]], 
+            Automatic, 
+             3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+              Magnification])}]], 
          TemplateBox[{GraphicsBox[{{
               Opacity[0.3], {{
                 LineBox[
@@ -288,10 +290,11 @@ Cell[BoxData[
                     RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
                     True, FrameStyle -> GrayLevel[0.33333333333333337`], 
                     FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
-                    Dynamic[{Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], "GrayLevel[0.5]"],
-                     Appearance -> None, BaseStyle -> {}, BaselinePosition -> 
-                    Baseline, DefaultBaseStyle -> {}, ButtonFunction :> 
+                    Dynamic[{Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "GrayLevel[0.5]"], Appearance -> None,
+                     BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
                     Not[
@@ -352,10 +355,11 @@ Cell[BoxData[
                     RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
                     True, FrameStyle -> GrayLevel[0.33333333333333337`], 
                     FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
-                    Dynamic[{Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], "GrayLevel[0.5]"],
-                     Appearance -> None, BaseStyle -> {}, BaselinePosition -> 
-                    Baseline, DefaultBaseStyle -> {}, ButtonFunction :> 
+                    Dynamic[{Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "GrayLevel[0.5]"], Appearance -> None,
+                     BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
                     Not[
@@ -436,10 +440,11 @@ Cell[BoxData[
                     RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
                     True, FrameStyle -> GrayLevel[0.33333333333333337`], 
                     FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
-                    Dynamic[{Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], "GrayLevel[0.5]"],
-                     Appearance -> None, BaseStyle -> {}, BaselinePosition -> 
-                    Baseline, DefaultBaseStyle -> {}, ButtonFunction :> 
+                    Dynamic[{Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "GrayLevel[0.5]"], Appearance -> None,
+                     BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
                     Not[
@@ -501,10 +506,11 @@ Cell[BoxData[
                     RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
                     True, FrameStyle -> GrayLevel[0.33333333333333337`], 
                     FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
-                    Dynamic[{Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], "GrayLevel[0.5]"],
-                     Appearance -> None, BaseStyle -> {}, BaselinePosition -> 
-                    Baseline, DefaultBaseStyle -> {}, ButtonFunction :> 
+                    Dynamic[{Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "GrayLevel[0.5]"], Appearance -> None,
+                     BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
                     Not[
@@ -589,8 +595,9 @@ Cell[BoxData[
                  Evaluator -> Automatic, Method -> "Preemptive"], 
                Alignment -> {Center, Center}, ImageSize -> 
                Dynamic[{
-                 Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                  AbsoluteCurrentValue[Magnification]}]], 
+                 Automatic, 
+                  3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                   Magnification])}]], 
               GraphicsBox[{{
                  Opacity[0.3], {{
                    LineBox[
@@ -654,8 +661,9 @@ Cell[BoxData[
                 None, Evaluator -> Automatic, Method -> "Preemptive"], 
                Alignment -> {Center, Center}, ImageSize -> 
                Dynamic[{
-                 Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                  AbsoluteCurrentValue[Magnification]}]], 
+                 Automatic, 
+                  3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                   Magnification])}]], 
               GraphicsBox[{{
                  Opacity[0.3], {{
                    LineBox[
@@ -745,10 +753,11 @@ Cell[BoxData[
                     RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
                     True, FrameStyle -> GrayLevel[0.33333333333333337`], 
                     FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
-                    Dynamic[{Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], "GrayLevel[0.5]"],
-                     Appearance -> None, BaseStyle -> {}, BaselinePosition -> 
-                    Baseline, DefaultBaseStyle -> {}, ButtonFunction :> 
+                    Dynamic[{Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "GrayLevel[0.5]"], Appearance -> None,
+                     BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
                     Not[
@@ -804,10 +813,11 @@ Cell[BoxData[
                     RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
                     True, FrameStyle -> GrayLevel[0.33333333333333337`], 
                     FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
-                    Dynamic[{Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], "GrayLevel[0.5]"],
-                     Appearance -> None, BaseStyle -> {}, BaselinePosition -> 
-                    Baseline, DefaultBaseStyle -> {}, ButtonFunction :> 
+                    Dynamic[{Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "GrayLevel[0.5]"], Appearance -> None,
+                     BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
                     Not[
@@ -877,10 +887,11 @@ Cell[BoxData[
                     RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
                     True, FrameStyle -> GrayLevel[0.33333333333333337`], 
                     FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
-                    Dynamic[{Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], "GrayLevel[0.5]"],
-                     Appearance -> None, BaseStyle -> {}, BaselinePosition -> 
-                    Baseline, DefaultBaseStyle -> {}, ButtonFunction :> 
+                    Dynamic[{Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "GrayLevel[0.5]"], Appearance -> None,
+                     BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
                     Not[
@@ -937,10 +948,11 @@ Cell[BoxData[
                     RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
                     True, FrameStyle -> GrayLevel[0.33333333333333337`], 
                     FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
-                    Dynamic[{Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], "GrayLevel[0.5]"],
-                     Appearance -> None, BaseStyle -> {}, BaselinePosition -> 
-                    Baseline, DefaultBaseStyle -> {}, ButtonFunction :> 
+                    Dynamic[{Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "GrayLevel[0.5]"], Appearance -> None,
+                     BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
                     Not[
@@ -12481,13 +12493,14 @@ Cell[BoxData[
    RowBox[{
     RowBox[{"\"\<dot\>\"", "\[Rule]", " ", 
      RowBox[{
-      RowBox[{"DotPlusLayer", "[", "1", "]"}], ">"}]}], ",", " ", 
+      RowBox[{"DotPlusLayer", "[", "1", "]"}], ">"}]}], ",", " ", "\n", 
     RowBox[{"{", 
      RowBox[{
       RowBox[{
        RowBox[{"NetPort", "[", "\"\<Input\>\"", "]"}], "\[Rule]", " ", 
        "\"\<dot\>\""}], ",", " ", "\"\<Target1\>\""}], "}"}]}]}]}]], "Code",
- CellChangeTimes->{{3.692911226774029*^9, 3.6929113434503736`*^9}}],
+ CellChangeTimes->{{3.692911226774029*^9, 3.6929113434503736`*^9}, 
+   3.692911388262734*^9}],
 
 Cell[BoxData[
  RowBox[{
@@ -12541,289 +12554,289 @@ Cell[CellGroupData[{
 Cell[667, 25, 233, 5, 164, "Subchapter"],
 Cell[CellGroupData[{
 Cell[925, 34, 323, 7, 64, "Code"],
-Cell[1251, 43, 22317, 512, 83, "Output"]
+Cell[1251, 43, 22443, 518, 83, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[23605, 560, 471, 11, 64, "Code"],
-Cell[24079, 573, 20828, 415, 73, "Output"]
+Cell[23731, 566, 471, 11, 64, "Code"],
+Cell[24205, 579, 20964, 421, 73, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[44944, 993, 126, 2, 64, "Code"],
-Cell[45073, 997, 161, 2, 39, "Output"]
+Cell[45206, 1005, 126, 2, 64, "Code"],
+Cell[45335, 1009, 161, 2, 39, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[45271, 1004, 243, 5, 64, "Code"],
-Cell[45517, 1011, 286, 6, 39, "Output"]
+Cell[45533, 1016, 243, 5, 64, "Code"],
+Cell[45779, 1023, 286, 6, 39, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[45840, 1022, 241, 6, 64, "Code"],
-Cell[46084, 1030, 2920, 61, 300, "Output"]
+Cell[46102, 1034, 241, 6, 64, "Code"],
+Cell[46346, 1042, 2920, 61, 300, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[49053, 1097, 300, 5, 207, "Subchapter"],
+Cell[49315, 1109, 300, 5, 258, "Subchapter"],
 Cell[CellGroupData[{
-Cell[49378, 1106, 690, 17, 89, "Code"],
-Cell[50071, 1125, 6350, 132, 111, "Output"]
+Cell[49640, 1118, 690, 17, 111, "Code"],
+Cell[50333, 1137, 6350, 132, 138, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[56458, 1262, 455, 10, 64, "Code"],
-Cell[56916, 1274, 6209, 129, 111, "Output"]
+Cell[56720, 1274, 455, 10, 80, "Code"],
+Cell[57178, 1286, 6209, 129, 138, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[63162, 1408, 131, 2, 64, "Code"],
-Cell[63296, 1412, 95, 1, 39, "Output"]
+Cell[63424, 1420, 131, 2, 80, "Code"],
+Cell[63558, 1424, 95, 1, 48, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[63428, 1418, 211, 4, 64, "Code"],
-Cell[63642, 1424, 281, 6, 39, "Output"]
+Cell[63690, 1430, 211, 4, 80, "Code"],
+Cell[63904, 1436, 281, 6, 48, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[63960, 1435, 362, 10, 64, "Code"],
-Cell[64325, 1447, 9374, 167, 295, "Output"]
+Cell[64222, 1447, 362, 10, 80, "Code"],
+Cell[64587, 1459, 9374, 167, 368, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[73736, 1619, 442, 10, 64, "Code"],
-Cell[74181, 1631, 7222, 150, 129, "Output"]
+Cell[73998, 1631, 442, 10, 80, "Code"],
+Cell[74443, 1643, 7222, 150, 161, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[81452, 1787, 228, 5, 164, "Subchapter"],
-Cell[81683, 1794, 7272, 151, 129, "Output"],
-Cell[88958, 1947, 597, 17, 64, "Code"],
+Cell[81714, 1799, 228, 5, 205, "Subchapter"],
+Cell[81945, 1806, 7272, 151, 161, "Output"],
+Cell[89220, 1959, 597, 17, 80, "Code"],
 Cell[CellGroupData[{
-Cell[89580, 1968, 312, 6, 64, "Code"],
-Cell[89895, 1976, 7159, 148, 129, "Output"]
+Cell[89842, 1980, 312, 6, 80, "Code"],
+Cell[90157, 1988, 7159, 148, 161, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[97091, 2129, 451, 13, 64, "Code"],
-Cell[97545, 2144, 54007, 886, 379, "Output"]
+Cell[97353, 2141, 451, 13, 80, "Code"],
+Cell[97807, 2156, 54007, 886, 473, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[151589, 3035, 549, 14, 89, "Code"],
-Cell[152141, 3051, 89110, 1677, 460, "Output"]
-}, Open  ]]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[241312, 4735, 80, 1, 81, "Chapter"],
-Cell[CellGroupData[{
-Cell[241417, 4740, 135, 1, 79, "Subchapter"],
-Cell[CellGroupData[{
-Cell[241577, 4745, 756, 19, 113, "Code"],
-Cell[242336, 4766, 20803, 414, 73, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[263176, 5185, 157, 3, 64, "Code"],
-Cell[263336, 5190, 233, 5, 39, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[263606, 5200, 242, 5, 64, "Code"],
-Cell[263851, 5207, 13280, 316, 73, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[277168, 5528, 282, 7, 64, "Code"],
-Cell[277453, 5537, 96, 1, 39, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[277586, 5543, 523, 12, 89, "Code"],
-Cell[278112, 5557, 20832, 415, 73, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[298981, 5977, 157, 3, 64, "Code"],
-Cell[299141, 5982, 261, 6, 39, "Output"]
+Cell[151851, 3047, 549, 14, 111, "Code"],
+Cell[152403, 3063, 89110, 1677, 575, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[299463, 5995, 70, 1, 81, "Chapter"],
+Cell[241574, 4747, 80, 1, 101, "Chapter"],
 Cell[CellGroupData[{
-Cell[299558, 6000, 102, 1, 79, "Subchapter"],
+Cell[241679, 4752, 135, 1, 98, "Subchapter"],
 Cell[CellGroupData[{
-Cell[299685, 6005, 89, 1, 54, "Subsection"],
+Cell[241839, 4757, 756, 19, 141, "Code"],
+Cell[242598, 4778, 20803, 414, 91, "Output"]
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[299799, 6010, 1071, 28, 161, "Code"],
-Cell[300873, 6040, 175, 4, 39, "Output"]
+Cell[263438, 5197, 157, 3, 80, "Code"],
+Cell[263598, 5202, 233, 5, 48, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[263868, 5212, 242, 5, 80, "Code"],
+Cell[264113, 5219, 13280, 316, 91, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[277430, 5540, 282, 7, 80, "Code"],
+Cell[277715, 5549, 96, 1, 48, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[277848, 5555, 523, 12, 111, "Code"],
+Cell[278374, 5569, 20832, 415, 91, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[299243, 5989, 157, 3, 80, "Code"],
+Cell[299403, 5994, 261, 6, 48, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[301109, 6051, 83, 1, 79, "Subchapter"],
+Cell[299725, 6007, 70, 1, 101, "Chapter"],
 Cell[CellGroupData[{
-Cell[301217, 6056, 836, 22, 137, "Code"],
-Cell[302056, 6080, 5790, 119, 111, "Output"]
+Cell[299820, 6012, 102, 1, 98, "Subchapter"],
+Cell[CellGroupData[{
+Cell[299947, 6017, 89, 1, 67, "Subsection"],
+Cell[CellGroupData[{
+Cell[300061, 6022, 1071, 28, 201, "Code"],
+Cell[301135, 6052, 175, 4, 48, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[307907, 6206, 91, 1, 81, "Chapter"],
+Cell[301371, 6063, 83, 1, 98, "Subchapter"],
 Cell[CellGroupData[{
-Cell[308023, 6211, 168, 2, 79, "Subchapter"],
-Cell[CellGroupData[{
-Cell[308216, 6217, 337, 7, 64, "Code"],
-Cell[308556, 6226, 22289, 511, 83, "Output"]
-}, Open  ]],
-Cell[330860, 6740, 384, 9, 64, "Code"],
-Cell[CellGroupData[{
-Cell[331269, 6753, 320, 7, 64, "Code"],
-Cell[331592, 6762, 20882, 416, 73, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[352511, 7183, 423, 9, 113, "Code"],
-Cell[352937, 7194, 20805, 414, 73, "Output"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[373791, 7614, 252, 5, 164, "Subchapter"],
-Cell[374046, 7621, 622, 17, 113, "Code"],
-Cell[CellGroupData[{
-Cell[374693, 7642, 281, 6, 64, "Code"],
-Cell[374977, 7650, 1956, 44, 302, "Output"]
-}, Open  ]]
-}, Open  ]]
-}, Open  ]],
-Cell[376972, 7699, 266, 5, 170, "Chapter"],
-Cell[CellGroupData[{
-Cell[377263, 7708, 90, 1, 66, "Chapter"],
-Cell[CellGroupData[{
-Cell[377378, 7713, 119, 1, 79, "Subchapter"],
-Cell[CellGroupData[{
-Cell[377522, 7718, 102, 1, 54, "Subsection"],
-Cell[CellGroupData[{
-Cell[377649, 7723, 216, 5, 64, "Code"],
-Cell[377868, 7730, 22135, 509, 191, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[400040, 8244, 169, 3, 64, "Code"],
-Cell[400212, 8249, 101, 1, 39, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[400350, 8255, 184, 3, 43, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[400559, 8262, 219, 4, 64, "Code"],
-Cell[400781, 8268, 20710, 414, 73, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[421528, 8687, 145, 3, 64, "Code"],
-Cell[421676, 8692, 608, 13, 66, "Output"]
+Cell[301479, 6068, 836, 22, 171, "Code"],
+Cell[302318, 6092, 5790, 119, 138, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[422345, 8712, 106, 1, 54, "Subsection"],
+Cell[308169, 6218, 91, 1, 101, "Chapter"],
 Cell[CellGroupData[{
-Cell[422476, 8717, 305, 7, 64, "Code"],
-Cell[422784, 8726, 12869, 306, 132, "Output"]
+Cell[308285, 6223, 168, 2, 98, "Subchapter"],
+Cell[CellGroupData[{
+Cell[308478, 6229, 337, 7, 80, "Code"],
+Cell[308818, 6238, 22289, 511, 103, "Output"]
+}, Open  ]],
+Cell[331122, 6752, 384, 9, 80, "Code"],
+Cell[CellGroupData[{
+Cell[331531, 6765, 320, 7, 80, "Code"],
+Cell[331854, 6774, 20882, 416, 91, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[435690, 9037, 323, 6, 102, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[436038, 9047, 243, 5, 64, "Code"],
-Cell[436284, 9054, 22115, 509, 191, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[458436, 9568, 452, 12, 89, "Code"],
-Cell[458891, 9582, 343, 8, 39, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[459271, 9595, 264, 5, 64, "Code"],
-Cell[459538, 9602, 1024, 27, 92, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[460599, 9634, 263, 5, 64, "Code"],
-Cell[460865, 9641, 235, 6, 39, "Output"]
+Cell[352773, 7195, 423, 9, 141, "Code"],
+Cell[353199, 7206, 20805, 414, 91, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[461149, 9653, 314, 7, 73, "Subsubsection"],
+Cell[374053, 7626, 252, 5, 205, "Subchapter"],
+Cell[374308, 7633, 622, 17, 141, "Code"],
 Cell[CellGroupData[{
-Cell[461488, 9664, 220, 5, 64, "Code"],
-Cell[461711, 9671, 10254, 258, 132, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[472002, 9934, 196, 4, 64, "Code"],
-Cell[472201, 9940, 223, 7, 39, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[472461, 9952, 163, 3, 64, "Code"],
-Cell[472627, 9957, 7610, 206, 132, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[480274, 10168, 306, 8, 64, "Code"],
-Cell[480583, 10178, 222, 5, 39, "Output"]
+Cell[374955, 7654, 281, 6, 80, "Code"],
+Cell[375239, 7662, 1956, 44, 377, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
+Cell[377234, 7711, 266, 5, 212, "Chapter"],
 Cell[CellGroupData[{
-Cell[480866, 10190, 96, 1, 54, "Subsection"],
+Cell[377525, 7720, 90, 1, 82, "Chapter"],
 Cell[CellGroupData[{
-Cell[480987, 10195, 110, 1, 43, "Subsubsection"],
+Cell[377640, 7725, 119, 1, 98, "Subchapter"],
 Cell[CellGroupData[{
-Cell[481122, 10200, 379, 10, 64, "Code"],
-Cell[481504, 10212, 337, 9, 39, "Output"]
+Cell[377784, 7730, 102, 1, 67, "Subsection"],
+Cell[CellGroupData[{
+Cell[377911, 7735, 216, 5, 80, "Code"],
+Cell[378130, 7742, 22135, 509, 238, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[481878, 10226, 212, 4, 64, "Code"],
-Cell[482093, 10232, 94, 1, 39, "Output"]
+Cell[400302, 8256, 169, 3, 80, "Code"],
+Cell[400474, 8261, 101, 1, 48, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[482224, 10238, 276, 8, 64, "Code"],
-Cell[482503, 10248, 259, 8, 43, "Output"]
+Cell[400612, 8267, 184, 3, 53, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[400821, 8274, 219, 4, 80, "Code"],
+Cell[401043, 8280, 20710, 414, 91, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[482799, 10261, 117, 2, 64, "Code"],
-Cell[482919, 10265, 98, 1, 39, "Output"]
-}, Open  ]]
-}, Open  ]]
+Cell[421790, 8699, 145, 3, 80, "Code"],
+Cell[421938, 8704, 608, 13, 82, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[483102, 10275, 97, 1, 81, "Chapter"],
+Cell[422607, 8724, 106, 1, 67, "Subsection"],
 Cell[CellGroupData[{
-Cell[483224, 10280, 113, 1, 79, "Subchapter"],
-Cell[CellGroupData[{
-Cell[483362, 10285, 415, 10, 64, "Code"],
-Cell[483780, 10297, 8443, 169, 129, "Output"]
+Cell[422738, 8729, 305, 7, 80, "Code"],
+Cell[423046, 8738, 12869, 306, 165, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[492260, 10471, 517, 14, 64, "Code"],
-Cell[492780, 10487, 27837, 567, 309, "Output"]
+Cell[435952, 9049, 323, 6, 127, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[436300, 9059, 243, 5, 80, "Code"],
+Cell[436546, 9066, 22115, 509, 238, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[520654, 11059, 738, 18, 89, "Code"],
-Cell[521395, 11079, 27907, 568, 177, "Output"]
+Cell[458698, 9580, 452, 12, 111, "Code"],
+Cell[459153, 9594, 343, 8, 48, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[549339, 11652, 454, 13, 64, "Code"],
-Cell[549796, 11667, 25196, 520, 236, "Output"]
+Cell[459533, 9607, 264, 5, 80, "Code"],
+Cell[459800, 9614, 1024, 27, 115, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[460861, 9646, 263, 5, 80, "Code"],
+Cell[461127, 9653, 235, 6, 48, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[575041, 12193, 98, 1, 79, "Subchapter"],
+Cell[461411, 9665, 314, 7, 91, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[575164, 12198, 137, 1, 43, "Subsubsection"],
-Cell[575304, 12201, 501, 15, 64, "Code"],
-Cell[CellGroupData[{
-Cell[575830, 12220, 305, 7, 64, "Code"],
-Cell[576138, 12229, 4638, 96, 93, "Output"]
+Cell[461750, 9676, 220, 5, 80, "Code"],
+Cell[461973, 9683, 10254, 258, 165, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[580813, 12330, 259, 5, 64, "Code"],
-Cell[581075, 12337, 5049, 102, 308, "Output"]
+Cell[472264, 9946, 196, 4, 80, "Code"],
+Cell[472463, 9952, 223, 7, 48, "Output"]
 }, Open  ]],
-Cell[586139, 12442, 190, 4, 64, "Code"],
 Cell[CellGroupData[{
-Cell[586354, 12450, 245, 6, 64, "Code"],
-Cell[586602, 12458, 264, 7, 39, "Output"]
+Cell[472723, 9964, 163, 3, 80, "Code"],
+Cell[472889, 9969, 7610, 206, 165, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[480536, 10180, 306, 8, 80, "Code"],
+Cell[480845, 10190, 222, 5, 48, "Output"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[586915, 12471, 202, 4, 73, "Subsubsection"],
-Cell[587120, 12477, 458, 12, 64, "Code"],
-Cell[587581, 12491, 477, 14, 64, "Code"],
-Cell[588061, 12507, 92, 1, 39, "Input"],
-Cell[588156, 12510, 92, 1, 39, "Input"]
+Cell[481128, 10202, 96, 1, 67, "Subsection"],
+Cell[CellGroupData[{
+Cell[481249, 10207, 110, 1, 53, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[481384, 10212, 379, 10, 80, "Code"],
+Cell[481766, 10224, 337, 9, 48, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[482140, 10238, 212, 4, 80, "Code"],
+Cell[482355, 10244, 94, 1, 48, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[482486, 10250, 276, 8, 80, "Code"],
+Cell[482765, 10260, 259, 8, 53, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[483061, 10273, 117, 2, 80, "Code"],
+Cell[483181, 10277, 98, 1, 48, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[483364, 10287, 97, 1, 101, "Chapter"],
+Cell[CellGroupData[{
+Cell[483486, 10292, 113, 1, 98, "Subchapter"],
+Cell[CellGroupData[{
+Cell[483624, 10297, 415, 10, 80, "Code"],
+Cell[484042, 10309, 8443, 169, 161, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[492522, 10483, 517, 14, 80, "Code"],
+Cell[493042, 10499, 27837, 567, 386, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[520916, 11071, 738, 18, 111, "Code"],
+Cell[521657, 11091, 27907, 568, 221, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[549601, 11664, 454, 13, 80, "Code"],
+Cell[550058, 11679, 25196, 520, 295, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[575303, 12205, 98, 1, 98, "Subchapter"],
+Cell[CellGroupData[{
+Cell[575426, 12210, 137, 1, 53, "Subsubsection"],
+Cell[575566, 12213, 501, 15, 80, "Code"],
+Cell[CellGroupData[{
+Cell[576092, 12232, 305, 7, 80, "Code"],
+Cell[576400, 12241, 4638, 96, 116, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[581075, 12342, 259, 5, 80, "Code"],
+Cell[581337, 12349, 5049, 102, 385, "Output"]
+}, Open  ]],
+Cell[586401, 12454, 190, 4, 80, "Code"],
+Cell[CellGroupData[{
+Cell[586616, 12462, 245, 6, 80, "Code"],
+Cell[586864, 12470, 264, 7, 48, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[587177, 12483, 202, 4, 91, "Subsubsection"],
+Cell[587382, 12489, 490, 13, 111, "Code"],
+Cell[587875, 12504, 477, 14, 80, "Code"],
+Cell[588355, 12520, 92, 1, 48, "Input"],
+Cell[588450, 12523, 92, 1, 48, "Input"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
